@@ -2,52 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikini Bottom Real Estate</title>
     <link rel="stylesheets" href="styles.css">
 </head>
 <body>
-    <div class="header">
-    <div class="top-half">
-       Bikini Bottom Real Estate
-    <ul class="right-header">
-        <li><a href="#">People</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Careers</a></li>
-    </ul>
-    </div>
-    <div class="bottom-half">
-    <h2 class="header-intro"></h2>
-    <p id="header-p">Dive into the vibrant world of Bikini Bottom Real Estate, where your dreams of owning the perfect property become a reality. Just like the ocean's depths hold countless treasures, our listings are teeming with homes that will capture your heart and imagination.</p>
-    <button class="t-button">Sign Up</button>
-    <img src="./images/Firm handshakew.jpeg" alt="Firm Handshake">
-    </div>
-    </div>
 
-    <div class="houses">
-        <h3>What's on Bikini Bottom Real Estate</h3>
-        <div class="container">
-            <div class="card"><img src="./images/spongebobs house.webp" alt="Spengebobs House"><div><p>Colorful, nautical wonderland filled with an eclectic mix of seashell decor, jellyfish-themed furnishings, and a cozy living space that perfectly complements sunny disposition.</p></div></div>
-            <div class="card"><img src="./images/patricks house.jpg" alt="Patrick's House"><div><p>A simple, rock-shaped dwelling, often described as a large rock with an entrance, furnished with minimalistic decor that mirrors his laid-back and carefree lifestyle, creating a tranquil and uncluttered living space in Bikini Bottom.</p></div></div>
-            <div class="card"><img src="./images/squidwards house.jpg" alt="Squidward residence"><div><p>An elegant and somewhat austere Easter Island head-shaped structure, featuring classical architectural elements, including a tiled roof, a tall, stately column, and a contrasting tranquil, minimalist interior that reflects his sophisticated, artistic sensibilities.</p></div></div>
-            <div class="card"><img src="./images/Chum bucket.jpg" alt="Chum Bucket"><div><p>A dark and ominous-looking fast-food restaurant in Bikini Bottom, characterized by its menacing, bucket-shaped exterior, a color scheme of dull gray and green, and a foreboding atmosphere that stands in stark contrast to the neighboring Krusty Krab, often serving unappetizing and unpopular dishes, making it the frequent rival of the Krusty Krab.</p></div></div>
+    <!--NAVBAR-->
+    <div class="container">
+
+         <nav class="box navbar sticky-top">
+             <div class="navbar-logo">
+                 <p>Bikini Bottom Real Estate</p>
+             </div>
+             <div class="navbar-links">
+                <a href="#">Properties</a>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+             </div>
+         </nav>
+         
+         <!--hero content-->
+         <div class="box hero">
+            <div class="hero-a hero-b">
+                <h1>The world is your oyster!</h1>
+                <p>Dive into the vibrant world of Bikini Bottom Real Estate, where your dreams of owning the perfect property become a reality. Just like the ocean's depths hold countless treasures, our listings are teeming with homes that will capture your heart and imagination.</p>
+                <button type="button" class="b1">Sign Up</button>
+            </div>
+            <div>
+                <img class="handshake" src="./images/Firm handshakew.jpeg" alt="Firm Handshake">
+            </div>
+         </div>
+
+         <!--Property content-->
+         <div class="box content">
+            <h2>What's on Bikini Bottom Real Estate</h2>
+         <div class="content-content">
+            <div>
+                <img src="./images/spongebobs house.webp" alt="Spengebobs House">
+                <p>Colorful, nautical wonderland filled with an eclectic mix of seashell decor, jellyfish-themed furnishings, and a cozy living space that perfectly complements sunny disposition.</p>
+            </div>
+            <div>
+                <img src="./images/patricks house.jpg" alt="Patrick's House">
+                <p>A simple, rock-shaped dwelling, often described as a large rock with an entrance, furnished with minimalistic decor that mirrors his laid-back and carefree lifestyle, creating a tranquil and uncluttered living space in Bikini Bottom.</p>
+            </div>
+            <div>
+                <img src="./images/squidwards house.jpg" alt="Squidward residence">
+                <p>An elegant and somewhat austere Easter Island head-shaped structure, featuring classical architectural elements, including a tiled roof, a tall, stately column, and a contrasting tranquil, minimalist interior that reflects his sophisticated, artistic sensibilities.</p>
+            </div>
+            <div>
+                <img src="./images/Chum bucket.jpg" alt="Chum Bucket">
+                <p>A dark and ominous-looking fast-food restaurant in Bikini Bottom, characterized by its menacing, bucket-shaped exterior, a color scheme of dull gray and green, and a foreboding atmosphere that stands in stark contrast to the neighboring Krusty Krab, often serving unappetizing and unpopular dishes, making it the frequent rival of the Krusty Krab.</p>
+            </div>
+         </div>
+      </div>
+
+      <!--Quote-->
+      <div class="box quote">
+        <p>"home is where you're surrounded by other creatures that care about you"</p>
+        <b> -- Sandy Cheeks</b>
+      </div>
+
+      <!--Sign Up-->
+      <divbox class="box sign-up">
+        <div class="sign-item sign-text">
+            <h3>Feel Free To Call Us!</h3>
+            <p>Sign up to recieve the quickest market updates</p>
         </div>
-    </div>
+        <div class="sign-item sign-button">
+            <button>Sign Up</button>
+        </div>
+      </div>
 
-    <div class="quote">
-        <p id="quote">"home is where you're surrounded by other creatures that care about you"</p>
-        <p>- Sandy</p>
-    </div>
-    <div class="sign-container">
-        <div class="signup">
-        <p class="stitle">Feel Free To Call Us!</p>
-        <p class="sdes">Sign up and recieve the fastest market updates</p>
-        <button class="l-button">Sign up</button>
-    </div>
-    </div>
-    
-    <div class="footer">
-        <p>&copy; 2023 The Odin Project</p>
+      <!--Footer-->
+      <div class="box footer">
+        <p>Copyright &copy; The Odin Project 2021</p>
+      </div>
     </div>
 </body>
 </html>
